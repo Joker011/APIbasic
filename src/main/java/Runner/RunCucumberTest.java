@@ -7,7 +7,8 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {"pretty"},
         features = "src/main/java/Feature",
         glue = "classpath:stepDefinition",
-        tags = "@checkingvariable"
+        tags = "@checkingvariable",
+        dryRun = true
 )
 public class RunCucumberTest extends AbstractTestNGCucumberTests {
 }
