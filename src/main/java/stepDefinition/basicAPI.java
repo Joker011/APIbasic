@@ -4,7 +4,9 @@ package stepDefinition;
 import EnumData.APIResource;
 import Pojo.SetData;
 import Utilities.UtilsMethods;
+import Utilities.extentreport;
 import Utilities.requestSpecification;
+import com.aventstack.extentreports.ExtentTest;
 import io.cucumber.java8.En;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -19,13 +21,16 @@ public class basicAPI implements En {
     Response response;
     static HashMap<String,String> responseData = new HashMap<>();
     SetData setData = new SetData();
+    ExtentTest test = extentreport.getTest();
         public basicAPI()
         {
             When("^User load the payload$",()->{
+                test.info("User load the payload");
                givenRequest= given().spec(requestSpecification.getRequestSpecification())
                         .body(setData.getGmaps());
             });
             When("^User post the call$", () -> {
+                test.info("User post the call");
                response= givenRequest.when().post("maps/api/place/add/json")
                        .then().extract().response();
             });

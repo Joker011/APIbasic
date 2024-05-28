@@ -27,7 +27,7 @@ Body:
     "language": "French-IN"
 }
 HTTP/1.1 200 OK
-Date: Mon, 15 Jan 2024 15:41:05 GMT
+Date: Tue, 28 May 2024 07:44:37 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,10 +40,10 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "edcc2db6069a5f6650857bb3c2a0625f",
+    "place_id": "2211981044b69237f7a2d306ab3fe06c",
     "scope": "APP",
-    "reference": "c1b01de187f469663223a44a8b021126c1b01de187f469663223a44a8b021126",
-    "id": "c1b01de187f469663223a44a8b021126"
+    "reference": "244bb896ff815846f395d5fe9009649a244bb896ff815846f395d5fe9009649a",
+    "id": "244bb896ff815846f395d5fe9009649a"
 }
 Request method:	PUT
 Request URI:	https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
@@ -58,12 +58,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "edcc2db6069a5f6650857bb3c2a0625f",
+    "place_id": "2211981044b69237f7a2d306ab3fe06c",
     "address": "A new Address, MH",
     "key": "qaclick123"
 }
 HTTP/1.1 200 OK
-Date: Mon, 15 Jan 2024 15:41:06 GMT
+Date: Tue, 28 May 2024 07:44:39 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -78,11 +78,11 @@ Content-Type: application/json;charset=UTF-8
     "msg": "Address successfully updated"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&key=qaclick123&place_id=edcc2db6069a5f6650857bb3c2a0625f
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&key=qaclick123&place_id=2211981044b69237f7a2d306ab3fe06c
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=[qaclick123, qaclick123]
-				place_id=edcc2db6069a5f6650857bb3c2a0625f
+				place_id=2211981044b69237f7a2d306ab3fe06c
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -91,7 +91,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 15 Jan 2024 15:41:07 GMT
+Date: Tue, 28 May 2024 07:44:40 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
